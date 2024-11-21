@@ -12,6 +12,9 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      width: {
+        header_left_right: '334px'
+      }
     },
   },
   plugins: [],
