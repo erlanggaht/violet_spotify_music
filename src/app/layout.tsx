@@ -2,13 +2,13 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import Layout from '@/app/violet_spotify_music_components_submodule/layout'
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
+const inter = localFont({
+  src: "./fonts/inter.ttf",
   variable: "--font-geist-sans",
   weight: "100 900",
 });
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
+const inter_italic = localFont({
+  src: "./fonts/inter-italic.ttf",
   variable: "--font-geist-mono",
   weight: "100 900",
 });
@@ -26,7 +26,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${inter.variable} ${inter_italic.variable} antialiased`}
       >
         <Layout>
         {children}
