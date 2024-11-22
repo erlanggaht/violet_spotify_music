@@ -12,19 +12,23 @@ export default {
   		colors: {
   			background: 'var(--background)',
   			foreground: 'var(--foreground)',
-			darkslategrey: 'var(--darklategrey)'
+			darkslategrey: 'var(--darklategrey)',
+			whitegrey: 'var(--whitegrey)'
   		},
   		width: {
-  			header_left_right: '334px'
+  			header_left: '290px',
+			header_right: '290px'
   		},
   		borderRadius: {
   			lg: 'var(--radius)',
   			md: 'calc(var(--radius) - 2px)',
   			sm: 'calc(var(--radius) - 4px)',
-			search: '36px'
+			search: '36px',
+			dot: '50%'
   		},
 		fontSize: {
-			sm: '16px'
+			sm: '16px',
+			xs: '12px'
 		}
   	}
   },
