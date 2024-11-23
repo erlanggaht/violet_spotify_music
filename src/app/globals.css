@@ -15,11 +15,16 @@
   --font-geist-mono: "inter italic", sans-serif;
 }
 
+html {
+  transform: scale(.98); 
+}
+
 body {
   color: var(--foreground);
   background: var(--background);
-  padding: 40px 42px;
+  padding: 0 26px;
   font-family: var(--font-geist-sans);
+  font-size: 90%;
 }
 
 .italic {

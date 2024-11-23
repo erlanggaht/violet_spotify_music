@@ -17,8 +17,8 @@ export default {
 			erieblack: 'var(--erieblack)'
   		},
   		width: {
-  			header_left: '290px',
-			header_right: '290px'
+  			header_left: '340px',
+			header_right: '340px'
   		},
   		borderRadius: {
   			lg: 'var(--radius)',
