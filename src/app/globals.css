@@ -18,7 +18,7 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  padding: 46px 42px;
+  padding: 40px 42px;
   font-family: var(--font-geist-sans);
 }
 
@@ -33,6 +33,10 @@ body {
 }
 
 .base_gradient_background {
+  background: var(--base_gradient);
+}
+
+.base_gradient_background_hover:hover {
   background: var(--base_gradient);
 }
 
