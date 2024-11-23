@@ -13,7 +13,8 @@ export default {
   			background: 'var(--background)',
   			foreground: 'var(--foreground)',
 			darkslategrey: 'var(--darklategrey)',
-			whitegrey: 'var(--whitegrey)'
+			whitegrey: 'var(--whitegrey)',
+			erieblack: 'var(--erieblack)'
   		},
   		width: {
   			header_left: '290px',
