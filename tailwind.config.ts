@@ -12,9 +12,10 @@ export default {
   		colors: {
   			background: 'var(--background)',
   			foreground: 'var(--foreground)',
+			baseviolet: 'var(--baseviolet)',
 			darkslategrey: 'var(--darklategrey)',
 			whitegrey: 'var(--whitegrey)',
-			erieblack: 'var(--erieblack)'
+			erieblack: 'var(--erieblack)',
   		},
   		width: {
   			header_left: '340px',
