@@ -30,6 +30,9 @@ export default {
 		fontSize: {
 			sm: '16px',
 			xs: '12px'
+		},
+		backgroundImage: {
+			'search-icon': "url('/icon/search.svg')"
 		}
   	}
   },
