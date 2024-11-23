@@ -1,0 +1,3 @@
+[submodule "violet_spotify_music_components_submodule"]
+	path = src/app/violet_spotify_music_components_submodule
+	url = https://github.com/erlanggaht/violet_spotify_music_components_submodule.git
