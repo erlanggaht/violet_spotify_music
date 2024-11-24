@@ -4,7 +4,7 @@
 
 :root {
   --background: #111111;
-  --foreground: #f1f1f1;
+  --foreground: #fff;
   --base_gradient: linear-gradient(90deg, #b5179e, #7209b7 100%);
   --darklategrey: #303030;
   --erieblack: #1D1D1D;
