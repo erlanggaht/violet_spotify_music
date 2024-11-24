@@ -33,7 +33,8 @@ export default {
 			xs: '12px'
 		},
 		backgroundImage: {
-			'search-icon': "url('/icon/search.svg')"
+			'search-icon': "url('/icon/search.svg')",
+			'pause-icon': "url('/icon/pause.svg')"
 		}
   	}
   },
