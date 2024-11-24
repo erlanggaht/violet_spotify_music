@@ -15,15 +15,10 @@
   --font-geist-sans: "inter", sans-serif;
   --font-geist-mono: "inter italic", sans-serif;
 }
-
-html {
-  transform: scale(.98); 
-}
-
 body {
   color: var(--foreground);
   background: var(--background);
-  padding: 0 26px;
+  padding: 10px 26px 0 26px;
   font-family: var(--font-geist-sans);
 }
 
