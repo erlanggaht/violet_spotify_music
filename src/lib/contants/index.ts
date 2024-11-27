@@ -4,4 +4,10 @@ const Constant_ScreenMediaQuery = {
   mobile: "(max-width: 750px)", // <
 };
 
-export { Constant_ScreenMediaQuery };
+const Constant_Screen = {
+  desktop:  1280,
+  tablet: 750, // >
+  mobile: 750, // <
+};
+
+export { Constant_ScreenMediaQuery, Constant_Screen };
