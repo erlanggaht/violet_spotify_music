@@ -3,7 +3,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import Layout from '@/app/violet_spotify_music_components_submodule/layout'
 import { getServerSession } from "next-auth";
-import { authOptions } from "./api/auth/[...nextauth]/route";
+import { authOptions } from "@/lib/API/authOptions";
 import NextAuthProviderClient from "@/lib/provider/next-auth-provider";
 const inter = localFont({
   src: "./fonts/inter.ttf",
